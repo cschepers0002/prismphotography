@@ -47,7 +47,7 @@ body{
 
 h1 {
   text-align: center;
-  font-family: 'Attack Graffiti';
+  font-family: 'Philly';
   font-black;
 }
 
@@ -102,6 +102,7 @@ p {
     display: none;
 }
 
+
 section{
     width:90%;
     margin: auto;
@@ -123,13 +124,11 @@ section{
   display: table;
 }
 
-
-#social-media {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
+#index-img2 {
+  max-width: 100%;
 }
+
+
 
 .headline {
 	text-align: center;
@@ -189,23 +188,7 @@ section{
 
 
 
-.footerimg-text {
-  text-align: center;
-  position: absolute;
-  top: 1750px;
-	left: 300px;
-  color: black;
-}
-.footerimg-text h2{
-    font-size:1.4em;
-    margin-bottom: 0;
 
-}
-
-.footerimg-text p{
-	 font-size: 1em;
-    margin-bottom:5px;
-}
 
 .prism  {
 	text-align: center;
@@ -386,17 +369,6 @@ ul {
 
 }
 
-footer{
-    text-align: center;
-    background-color: white;
-    padding:5px 0;
-    color: black;
-
-}
-footer a{
-    color: black;
-    text-decoration: none;
-}
 
 
 /* --------
@@ -442,6 +414,21 @@ a.active {
 	right: 0;
 	top: 0;
 }
+
+#social-media {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  float: center;
+}
+
+footer {
+  text-align: center;
+}
+
+
+
 /* --------
 END MOBILE NAV STYLES
 -------- */
@@ -476,7 +463,7 @@ DESKTOP STYLES
       position: absolute;
       color: #666;
       width: 50%;
-      top:30%;
+      top:10%;
 
   }
 
@@ -484,5 +471,42 @@ DESKTOP STYLES
       width:50%;
       margin: auto;
   }
+
+  footer{
+      text-align: center;
+      background-color: white;
+      padding:5px 0;
+      color: black;
+
+  }
+  footer a{
+      color: black;
+      text-decoration: none;
+  }
+
+  .footer-text1 {
+    text-align: left;
+
+  }
+
+  .footer-text2 {
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  #social-media {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 150px;
+    float: left;
+  }
+
+
+
+
+
+
 
 }
