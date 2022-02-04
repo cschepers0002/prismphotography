@@ -4,6 +4,11 @@
   src: url('GOTHIC.otf') format:"opentype");
 }
 
+@font-face {
+  font-family: 'Dolce Vita';
+  src: url('DOLCE VITA LIGHT.ttf') format:"truetype");
+}
+
 body{
   background: white;
   font-size: 16px;
@@ -37,6 +42,8 @@ h1 {
 
 h2 {
 	font-weight: 400;
+  font-family: 'Dolce Vita';
+
 
 }
 
