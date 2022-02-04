@@ -42,10 +42,12 @@ body{
 h1 {
   text-align: center;
   font-family: 'Dolce Vita Bold';
+  font-black;
 }
 
 h2 {
   font-family: 'Dolce Vita Bold';
+  color: black;
 
 
 }
@@ -74,13 +76,13 @@ p {
 .hero{
     /* Background image of yellow jacket lady */
 
-    background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-image: url("images/light-left.gif"), url("images/light-right.gif");
     /* woman-1 is yellow jacket, woman-2 is looking up */
-    background-size: 400px, 300px, contain;
+    background-size: 200px, 200px, contain;
     background-repeat:no-repeat;
     background-position: bottom left, bottom right;
     /* background color that will show if the lady image doesn't */
-    background-color: #e9e6e7;
+    background-color: white;
 
     /* Percentage of the viewport height below can change */
     height: 40vh;
@@ -466,13 +468,13 @@ DESKTOP STYLES
       display: block;
       position: absolute;
       color: #666;
-      width: 40%;
-      top:10%;
-      left:40%;
+      width: 50%;
+      top:30%;
+
   }
 
   section{
-      width:60%;
+      width:50%;
       margin: auto;
   }
 
