@@ -124,7 +124,7 @@ section{
   display: table;
 }
 
-#index-img2 {
+.index-img2 {
   max-width: 100%;
 }
 
@@ -467,6 +467,7 @@ DESKTOP STYLES
 
   }
 
+
   section{
       width:50%;
       margin: auto;
@@ -500,6 +501,11 @@ DESKTOP STYLES
     margin-right: auto;
     margin-top: 25px;
     width: 150px;
+    float: left;
+  }
+
+  .index-img2 {
+    max-width: 50%
     float: left;
   }
 
