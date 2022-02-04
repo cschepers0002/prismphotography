@@ -9,10 +9,12 @@
   src: url('DOLCE VITA LIGHT.ttf') format("truetype");
 }
 
-@font-face {
-  font-family: 'Dolce Vita Bold';
-  src: url('DOLCE VITA HEAVY BOLD.ttf') format("truetype");
+@@font-face {
+  font-family: 'Attack Graffiti';
+  src: url('aAttackGraffiti.otf') format("opentype");
 }
+
+
 body{
   background: white;
   font-size: 16px;
@@ -41,7 +43,7 @@ body{
 
 h1 {
   text-align: center;
-  font-family: 'Dolce Vita Bold';
+  font-family: 'Attack Graffiti';
   font-black;
 }
 
