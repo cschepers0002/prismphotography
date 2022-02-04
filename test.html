@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Testimonials</title>
+	<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- RESPONSIVE CODE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<h1>
+		<a href="index.html">
+			<img id="logo" src="logo.png" alt="Prism Photography">
+		</a>
+	</h1>
+
+	<!-- Navigation with hamburger menu when mobile -->
+<nav class="topnav" id="myTopnav">
+	 <a href="index.html" class="active">Home</a>
+	 <a href="about.html">About</a>
+	 <a href="port.html">Portfolio</a>
+	 <a href="contact.html">Contact</a>
+	<a href="test.html">Testimonials</a>
+	<a href="services.html">Services</a>
+	<!-- Dont change the link below -->
+	   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		 <i class="fa fa-bars"></i>
+	   </a>
+</nav>
+
+
+<div class="test-hero">
+
+<section>
+		<div id="bkgd-headline"><h1>Client Testimonials</h1></div>
+		<div id="bkgd-text">
+		<p>We believe to a degree that our photography speaks on its own, but we never pass up an opportunity for our clients to speak their truth about their photo sessions with our artists. Below are a few testimonials, written by real clients of Prism Photography what wanted to voice their opinions about being behind the lense, having a different make-up look, or seeing their hair in a totally different way. For client safety, only first names are used.</p>
+		</div>
+</section>
+</div>
+
+
+	<footer>
+			<p>Charlotte Schepers Graphic Design</p><p>&copy; 2022 Prism Photography | <a href="#">Back to Top</a></p>
+		</footer>
+
+	<!--  Don't Touch Javascript below
+		 This needs to be on every HTML document  -->
+		 <script>
+			 function myFunction() {
+				 var x = document.getElementById("myTopnav");
+				 if (x.className === "topnav") {
+					 x.className += " responsive";
+				 } else {
+					 x.className = "topnav";
+				 }
+			 }
+		 </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- RESPONSIVE CODE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+<h1>
+	<a href="index.html">
+		<img id="logo" src="logo.png" alt="Prism Photography" title="Prism Photography">
+	</a>
+</h1>
+
+<!-- Navigation with hamburger menu when mobile -->
+<nav class="topnav" id="myTopnav">
+	<a href="index.html" class="active">Home</a>
+	<a href="about.html">About</a>
+	<a href="port.html">Portfolio</a>
+	<a href="contact.html">Contact</a>
+   <a href="test.html">Testimonials</a>
+	 <a href="services.html">Services</a>
+   <!-- Dont change the link below -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	 <i class="fa fa-bars"></i>
+   </a>
+</nav>
+	<div class="contact-hero">
+
+	</div>
+
+
+	<form action="thanks.html">
+			 <h2>Contact Us</h2>
+			 <hr>
+
+			 <p> Fill out this form if any questions or concerns about Prism Photography. Another way to reach out to Prism is via social media.</p>
+				 <br>
+
+			 We are looking forward to your questions!</p>
+			 <br>
+			 <label>Your Name: <br>
+			 <input type="text" id="name" name="name" required></label>
+
+			 <label>Email: <br>
+			 <input type="email" id="email" name="email" required></label>
+
+
+
+			 <label>Message: <br>
+			 <textarea id="message" required></textarea></label>
+
+			 <p>Please indicate what subject your message involves:</p>
+		 <ul>
+			 <li><input class="checkbox" type="checkbox" name="member" id="member" value="member" class="svc">Booking an Appointment</li>
+			 <li><input class="checkbox" type="checkbox" name="donate" id="donate" value="donate" class="svc">General Questions</li>
+			 <li><input class="checkbox" type="checkbox" name="general" id="general" value="general" class="svc">Requesting a Meeting</li>
+			 <li><input class="checkbox" type="checkbox" name="other" id="other" value="other" class="svc">Other</li>
+			 <li><input class="checkbox" type="checkbox" class="cursor" id="news" name="news" checked> Client Monthly Email List</label></li>
+		 </ul>
+
+			 <!-- <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label> -->
+
+			 <button type="submit" class="cursor" value="Submit">Submit</button>
+
+	 </form>
+
+	<footer>
+          <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
+        </footer>
+
+		<!--  Don't Touch Javascript below
+		This needs to be on every HTML document  -->
+		<script>
+			function myFunction() {
+				 var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+				 x.className += " responsive";
+				 } else {
+					 x.className = "topnav";
+				 }
+			 }
+		</script>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- RESPONSIVE CODE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<h1>
+		<a href="index.html">
+			<img id="logo" src="logo.png" alt="Prism Photography">
+		</a>
+	</h1>
+
+ 	<!-- Navigation with hamburger menu when mobile -->
+	<nav class="topnav" id="myTopnav">
+	     <a href="index.html" class="active">Home</a>
+	     <a href="about.html">About</a>
+	     <a href="port.html">Portfolio</a>
+	     <a href="contact.html">Contact</a>
+		<a href="test.html">Testimonials</a>
+		<a href="services.html">Services</a>
+		<!-- Dont change the link below -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+	</nav>
+
+	<div class="hero">
+
+		<!-- <img src="hero.png" alt="img1" style="width:100%"> -->
+
+		<div class="hero-text">
+
+			<h2>Headline for desktop only - <br> or a photo of another person</h2>
+
+		</div>
+	</div>
+	<section>
+		<h2>Welcome</h2>
+		<p>Prism Photography is the studio to book to bring the light and color of your life to fruition. See your confidence soar as creative professionals build the perfect look, make-up, and pose to build your brand.</p>
+	</section>
+	<!-- <div class="footerimg">
+		<img src="footerimg.png" alt="img2" style="width:100%">
+	</div> -->
+
+
+	<div class="row1">
+  <div class="column1">
+    <img src="images/pexels-ayodeji-fatunla-7899932.jpg" alt="yellow" style="width: 100%">
+  </div>
+  <div class="column1">
+    <img src="images/pexels-shvets-production-6984648.jpg" alt="red" style="width: 100%">
+  </div>
+  <div class="column1">
+    <img src="images/pexels-teddy-tavan-4890733.jpg" alt="blue" style="width: 100%">
+  </div>
+	 <div class="column1">
+    <img src="images/pexels-slaytina-2740920.jpg" alt="blue" style="width: 100%">
+  </div>
+</div>
+
+<h1> Follow Us </h2>
+<img id="social-media" src="images/social-media-icons.png" alt="social media icons">
+
+	<footer>
+      <p>Charlotte Schepers Graphic Design</p><p>&copy; 2022 Prism Photography | <a href="#">Back to Top</a></p>
+    </footer>
+
+		<!--  Don't Touch Javascript below
+	     This needs to be on every HTML document  -->
+	     <script>
+	       function myFunction() {
+	         var x = document.getElementById("myTopnav");
+	         if (x.className === "topnav") {
+	           x.className += " responsive";
+	         } else {
+	           x.className = "topnav";
+	         }
+	       }
+	     </script>
+
+
+	</body>
+
+</html>

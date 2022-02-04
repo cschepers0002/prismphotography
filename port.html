@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- RESPONSIVE CODE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<h1>
+	<a href="index.html">
+		<img id="logo" src="logo.png" alt="Prism Photography" title="Prism Photography">
+	</a>
+	</h1>
+
+	<!-- Navigation with hamburger menu when mobile -->
+
+<div class="topnav" id="myTopnav">
+     <a href="index.html">Home</a>
+     <a href="about.html">About</a>
+     <a href="port.html">Portfolio</a>
+     <a href="contact.html">Contact</a>
+	<a href="test.html">Testimonials</a>
+	<a href="services.html">Services</a>
+	<!-- Dont change the link below -->
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+	</div>
+
+	<!-- <div class="prism"><img src="porttxt.png" alt="Prism Photography">
+
+	<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>PRISM PHOTOS</h1>
+  <p>Prism Photography likes to draw focus on a model’s individual beauty by dyanmic poses or an upclose frame. We do not believe in straying away from someone’s flaws, we believe everyone’s beauty is unique and different. We believe beauty is diverse and should be broadcasted as such, Please enjoy the following images as a preview into a session with Prism Photography would lead to. Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="three()">3</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="red1.jpg" style="width:100%">
+    <img src="red3.jpg" style="width:100%">
+    <img src="orange2.jpg" style="width:100%">
+    <img src="orange4.jpg" style="width:100%">
+    <img src="orange6.jpg" style="width:100%">
+    <img src="yellow1.jpg" style="width:100%">
+    <img src="yellow3.jpg" style="width:100%">
+		<img src="green1.jpg" style="width:100%">
+	 	<img src="green2.jpg" style="width:100%">
+	 	<img src="blue1.jpg" style="width:100%">
+	  <img src="blue2.jpg" style="width:100%">
+	  <img src="blue6.jpg" style="width:100%">
+	  <img src="purple1.jpg" style="width:100%">
+	  <img src="purple3.jpg" style="width:100%">
+  </div>
+
+
+  <div class="column">
+    <img src="red2.jpg" style="width:100%">
+    <img src="orange1.jpg" style="width:100%">
+    <img src="orange3.jpg" style="width:100%">
+    <img src="orange5.jpg" style="width:100%">
+    <img src="yellow2.jpg" style="width:100%">
+    <img src="yellow4.jpg" style="width:100%">
+	 	<img src="green3.jpg" style="width:100%">
+	 	<img src="green4.jpg" style="width: 100%">
+	  <img src="green5.jpg" style="width: 100%">
+	  <img src="blue3.jpg" style="width:100%">
+	  <img src="blue4.jpg" style="width:100%">
+	  <img src="blue5.jpg" style="width:100%">
+	  <img src="purple2.jpg" style="width:100%">
+	  <img src="purple4.jpg" style="width:100%">
+  </div>
+
+
+
+	<footer>
+          <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
+  </footer>
+
+	<!--  Don't Touch Javascript below
+		 This needs to be on every HTML document  -->
+		 <script>
+			 function myFunction() {
+				 var x = document.getElementById("myTopnav");
+				 if (x.className === "topnav") {
+					 x.className += " responsive";
+				 } else {
+					 x.className = "topnav";
+				 }
+			 }
+		 </script>
+
+
+	</body>
+</html>
