@@ -1,14 +1,18 @@
 @charset "utf-8";
 @font-face {
   font-family: 'Century Gothic';
-  src: url('GOTHIC.otf') format:"opentype");
+  src: url('GOTHIC.otf') format("opentype");
 }
 
 @font-face {
-  font-family: 'Dolce Vita';
-  src: url('DOLCE VITA LIGHT.ttf') format:"truetype");
+  font-family: 'Dolce Vita Light';
+  src: url('DOLCE VITA LIGHT.ttf') format("truetype");
 }
 
+@font-face {
+  font-family: 'Dolce Vita Bold';
+  src: url('DOLCE VITA HEAVY BOLD.ttf') format("truetype");
+}
 body{
   background: white;
   font-size: 16px;
@@ -37,12 +41,11 @@ body{
 
 h1 {
   text-align: center;
-
+  font-family: 'Dolce Vita Bold';
 }
 
 h2 {
-	font-weight: 400;
-  font-family: 'Dolce Vita';
+  font-family: 'Dolce Vita Bold';
 
 
 }
@@ -115,7 +118,7 @@ section{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 100px;
 }
 
 .headline {
