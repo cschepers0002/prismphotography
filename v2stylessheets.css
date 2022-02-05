@@ -10,13 +10,18 @@
 }
 
 @font-face {
+  font-family: 'Dolce Vita Bold';
+  src: url('DOLCE VITA HEAVY BOLD.ttf') format("truetype");
+}
+
+/* @font-face {
   font-family: 'Attack Graffiti';
   src: url('aAttackGraffiti.otf') format("opentype");
 }
 @font-face {
   font-family: 'Philly';
   src: url('PhillySans.otf') format("opentype");
-}
+} */
 
 
 body{
@@ -47,12 +52,12 @@ body{
 
 h1 {
   text-align: center;
-  font-family: 'Philly';
+  font-family: 'Dolce Vita Bold';
   font-black;
 }
 
 h2 {
-  font-family: 'Philly';
+  font-family: 'Dolce Vita Bold';
   color: black;
   font-size: 50px;
 
@@ -302,7 +307,7 @@ box-sizing: border-box;
 .checkbox{
     width:30px;
 }
-textarea{
+textarea {
 min-height:100px;
 width: 100%;
 padding: 2%;
@@ -351,6 +356,7 @@ ul {
 	margin-top: 100px;
 	margin-left: 50px;
 }
+
 
 /* ABOUT  --------------- */
 .services-hero{
