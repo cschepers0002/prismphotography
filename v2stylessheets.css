@@ -510,8 +510,9 @@ DESKTOP STYLES
     color: white;
     /* padding: 35px; */
     width: 90%;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 100px;
+    font-size: 30px;
 
 
   }
@@ -522,7 +523,7 @@ DESKTOP STYLES
     font-size: 16px;
     /* margin: 10px 150px; */
     width: 90%;
-    padding-top: 10px;
+    padding-top: -10px;
     padding-left: 100px;
 
   }
