@@ -118,7 +118,7 @@ section{
   display: table;
 }
 
-.index-img2 {
+.left-align-img {
   max-width: 100%;
 }
 
@@ -500,7 +500,7 @@ DESKTOP STYLES
     float: left;
   }
 
-  .index-img2 {
+  .left-align-img {
     max-width: 50%
     float: left;
   }
