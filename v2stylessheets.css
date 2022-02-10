@@ -200,7 +200,7 @@ section{
 
 .staff {
   height: 100vh;
-  float: left;
+  /* float: left; */
   display: inline;
 }
 
@@ -500,6 +500,15 @@ DESKTOP STYLES
   }
 
 
+  p {
+        padding: 10px;
+
+    }
+
+    h1, h2 {
+      font-size: 30px;
+    }
+
   section{
       width:50%;
       margin: auto;
@@ -592,11 +601,14 @@ DESKTOP STYLES
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     figure{
-        width:50%;
+        width: 50%
+        padding: 5px;
 
     }
 
+    .
 
 
 
