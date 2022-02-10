@@ -76,6 +76,13 @@ p {
     line-height: 1.5;
 }
 
+.color-bar {
+  height: 15px;
+  margin-top: -10px;
+  background: rgb(237,36,36);
+background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, rgba(255,239,0,1) 38%, rgba(49,131,52,1) 58%, rgba(0,84,182,1) 75%, rgba(107,10,181,1) 92%);
+}
+
 /* INDEX PAGE ------------------------------------------- */
 .hero{
     /* Background image of yellow jacket lady */
@@ -93,6 +100,15 @@ p {
     min-height:400px;
     position: relative;
 
+}
+
+.hero1 {
+    background-image: url("images/index-img4.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:600px;
+    min-width: 100px
 }
 
 .hero-text {
@@ -474,6 +490,7 @@ DESKTOP STYLES
 
   footer{
       text-align: center;
+      float: center;
       background-color: white;
       padding:5px 0;
       color: black;
@@ -506,6 +523,11 @@ DESKTOP STYLES
   .left-align-img {
     max-width: 50%;
     float: left;
+  }
+
+  .right-align-text {
+    text-align: right;
+    margin: 35px;
   }
 
   #bkgd-headline {
