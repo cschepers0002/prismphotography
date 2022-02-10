@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+
+/* FONTS -------------------------------------------- */
 @font-face {
   font-family: 'Century Gothic';
   src: url('GOTHIC.otf') format("opentype");
@@ -73,7 +76,7 @@ p {
     line-height: 1.5;
 }
 
-
+/* INDEX PAGE ------------------------------------------- */
 .hero{
     /* Background image of yellow jacket lady */
 
@@ -131,7 +134,7 @@ section{
 }
 
 
-/* ABOUT  --------------- */
+/* ABOUT  ------------------------------------------------- */
 .about-hero{
 
      background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
@@ -240,7 +243,7 @@ section{
   color: white;
 }
 
-/* CONTACT  --------------- */
+/* CONTACT  ------------------------------------------------ */
 .contact-hero{
 
     /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
@@ -322,7 +325,7 @@ ul {
     padding-inline-start: 10px;
 }
 
-/* TESTIMONIALS  --------------- */
+/* TESTIMONIALS  --------------------------------------------- */
 .test-hero{
 
     /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
@@ -348,7 +351,7 @@ ul {
 }
 
 
-/* ABOUT  --------------- */
+/* SERVICES PAGE  --------------- */
 .services-hero{
 
      /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
