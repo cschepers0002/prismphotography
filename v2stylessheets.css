@@ -450,6 +450,7 @@ a.active {
 #social-media {
   display: block;
   margin-left: auto;
+  margin-top: 15px;
   margin-right: auto;
   width: 100px;
   float: center;
