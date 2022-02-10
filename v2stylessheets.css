@@ -182,22 +182,36 @@ section{
 }
 
 
-#aria {
+/* #aria {
   float: left;
   height: 50vh;
   min-height: 200px;
 }
 
 #shannon {
-  float: right;
+  float: lefy;
   height: 50vh;
 }
 
 #adam {
   float: left;
   height: 50vh;
+} */
+
+.staff {
+  height: 100vh;
+  float: left;
+  display: inline;
 }
 
+.about-grid {
+  /* padding: 0 0 10px 10px; */
+  width: 90%;
+  margin: auto;
+}
+.about-grid p{
+    text-align: left;
+}
 
 
 
