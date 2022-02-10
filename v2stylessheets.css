@@ -137,10 +137,10 @@ section{
 /* ABOUT  ------------------------------------------------- */
 .about-hero{
 
-     background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+     /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
     background-size: 300px, 500px, contain;
     background-repeat:no-repeat;
-    background-position: bottom left, bottom right;
+    background-position: bottom left, bottom right; */
 
     background-color: #dc9822;
 
@@ -504,7 +504,7 @@ DESKTOP STYLES
   }
 
   .left-align-img {
-    max-width: 50%
+    max-width: 50%;
     float: left;
   }
 
@@ -514,7 +514,7 @@ DESKTOP STYLES
     /* padding: 35px; */
     width: 90%;
     padding-top: 40px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     font-size: 30px;
 
 
@@ -527,7 +527,24 @@ DESKTOP STYLES
     /* margin: 10px 150px; */
     width: 90%;
     padding-top: -10px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+
+  }
+
+  /* ABOUT  ------------------------------------------------- */
+  .about-hero{
+
+       /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+      background-size: 300px, 500px, contain;
+      background-repeat:no-repeat;
+      background-position: bottom left, bottom right; */
+
+      background-color: #dc9822;
+
+      /* Percentage of the viewport height below can change */
+      height: 85vh;
+      min-height:400px;
+      position: relative;
 
   }
 
