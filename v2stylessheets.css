@@ -137,10 +137,6 @@ section{
   display: table;
 }
 
-.left-align-img {
-  float: left;
-  height: 60vh;
-}
 
 
 
@@ -376,6 +372,26 @@ ul {
     position: relative;
 
 }
+
+.left-align-img {
+  float: center;
+  height: 60vh;
+}
+
+.right-align-img {
+  float: center;
+  height: 60vh;
+}
+
+.left-align-text {
+  text-align: center;
+}
+
+.right-align-text {
+  text-align: center;
+}
+
+
 .email p {
 	font-family: Century Gothic, "sans-serif";
 	font-color: blue;
@@ -555,6 +571,16 @@ DESKTOP STYLES
 
   .right-align-text {
     text-align: right;
+    margin: 35px;
+  }
+
+  .right-align-img {
+    max-width: 50%;
+    float: right;
+  }
+
+  .left-align-text {
+    text-align: left;
     margin: 35px;
   }
 
