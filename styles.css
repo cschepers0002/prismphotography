@@ -40,10 +40,9 @@ body{
 }
 
 
-/* .abouthero {
-	  height: 50vh;
-} */
-
+img{
+  max-width:100%;
+}
 
 
 #logo {
@@ -56,19 +55,14 @@ body{
 h1 {
   text-align: center;
   font-family: 'Dolce Vita Bold';
-  font-black;
+  font-size: 2em;
 }
 
 h2 {
   font-family: 'Dolce Vita Bold';
   color: black;
-  font-size: 50px;
-
-
+  font-size: 1.5em;
 }
-
-
-
 
 p {
 	color: black;
@@ -80,14 +74,57 @@ p {
   height: 15px;
   margin-top: -10px;
   background: rgb(237,36,36);
-background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, rgba(255,239,0,1) 38%, rgba(49,131,52,1) 58%, rgba(0,84,182,1) 75%, rgba(107,10,181,1) 92%);
+  background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, rgba(255,239,0,1) 38%, rgba(49,131,52,1) 58%, rgba(0,84,182,1) 75%, rgba(107,10,181,1) 92%);
 }
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.headline {
+	text-align: center;
+	margin-top: 300px;
+}
+
+section{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+
+.white-text{
+  color:white;
+}
+
+
+#social-media {
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: auto;
+  width: 100px;
+  float: center;
+}
+
+footer {
+  text-align: center;
+}
+
 
 /* INDEX PAGE ------------------------------------------- */
 .hero{
     /* Background image of yellow jacket lady */
 
-    background-image: url("images/light-left.gif"), url("images/light-right.gif");
+    /* background-image: url("images/light-left.gif"), url("images/light-right.gif"); */
     /* woman-1 is yellow jacket, woman-2 is looking up */
     background-size: 200px, 200px, contain;
     background-repeat:no-repeat;
@@ -110,41 +147,15 @@ background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, 
     min-height:600px;
     min-width: 100px
 }
-
+.hero-text h2{
+  text-align: center;
+}
 .hero-text {
-    display: none;
+    width: 80%;
+    margin:auto;
 }
 
 
-section{
-    width:90%;
-    margin: auto;
-    text-align: center;
-
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column1 {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row1::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-
-
-.headline {
-	text-align: center;
-	margin-top: 300px;
-
-}
 
 
 /* ABOUT  ------------------------------------------------- */
@@ -158,25 +169,31 @@ section{
     background-color: #dc9822;
 
     /* Percentage of the viewport height below can change */
-    height: 40vh;
+    /* height: 40vh; */
     min-height:400px;
     position: relative;
-
+    padding-top: 10px;
+    padding-bottom:10px;
 }
-
+.small-img{
+  display: none;
+  width: 150px;
+  position: absolute;
+  left:0;
+}
 /* Centered text */
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 /* Container holding the image and the text */
-.container {
+/* .container {
   position: relative;
   text-align: center;
   color: white;
-}
+} */
 
 
 /* #aria {
@@ -195,31 +212,13 @@ section{
   height: 50vh;
 } */
 
-.staff {
-  height: 100vh;
-  /* float: left; */
-  display: inline;
-}
-
-.about-grid {
-  /* padding: 0 0 10px 10px; */
-  width: 90%;
-  margin: auto;
-  height: 100vh;
-  float: left;
-  display: inline;
-}
-.about-grid p{
-    text-align: left;
-}
-
 
 
 
 
 .prism  {
 	text-align: center;
-	margin-top: 30px;;
+	margin-top: 30px;
 }
 
 
@@ -230,28 +229,15 @@ section{
   padding: 0px;
 }
 
-
-
-
-
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+/* PORTFOLIO --------------------------------------- */
+.column{
+  width: 49%;
+  display: inline-block;
+  vertical-align: text-top;
 }
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-
 .column img {
   margin-top: 8px;
-  vertical-align: middle;
+  padding: 0 4px;
 }
 
 /* Style the buttons */
@@ -299,45 +285,44 @@ section{
   min-width: 250px;
 }
 
-/**CONACT FORM */
+/*CONACT FORM ----------*/
 
-/* START MOBILE FORM STYLES */
 form{
-margin: 20px auto;
-width:90%;
+  margin: 20px auto;
+  width:90%;
 }
 form p{
-margin-bottom:5px;
+  margin-bottom:5px;
 }
 label{
-display:block;
+  display:block;
 }
 #newsletter input{
-display:inline;
-width:auto;
+  display:inline;
+  width:auto;
 }
 input{
 /* FOR MOBILE WIDTH:100% */
-width:100%;
-padding:1.7%;
-margin:1.5% 0;
-font-size: 1em;
-border-radius: 4px;
-border:1px solid #ccc;
-box-sizing: border-box;
+  width:100%;
+  padding:1.7%;
+  margin:1.5% 0;
+  font-size: 1em;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  box-sizing: border-box;
 }
 .checkbox{
     width:30px;
 }
 textarea {
-min-height:100px;
-width: 100%;
-padding: 2%;
-margin: 1.5% 0;
-font-size: 1em;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
+  min-height:100px;
+  width: 100%;
+  padding: 2%;
+  margin: 1.5% 0;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 
@@ -358,18 +343,18 @@ ul {
 /* TESTIMONIALS  --------------------------------------------- */
 .test-hero{
 
-    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
-    background-size: 400px, 300px, contain;
-    background-repeat:no-repeat;
-    background-position: bottom left, bottom right; */
+  /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+  background-size: 400px, 300px, contain;
+  background-repeat:no-repeat;
+  background-position: bottom left, bottom right; */
 
-    background-color: #7d4d9f;
-    color: white;
+  background-color: #7d4d9f;
+  color: white;
 
-    /* Percentage of the viewport height below can change */
-    height: 40vh;
-    min-height:400px;
-    position: relative;
+  /* Percentage of the viewport height below can change */
+  height: 40vh;
+  min-height:400px;
+  position: relative;
 
 }
 
@@ -393,7 +378,7 @@ ul {
 
 
 .email p {
-	font-family: Century Gothic, "sans-serif";
+	font-family: "Century Gothic", "sans-serif";
 	font-color: blue;
 	font-size: 25px;
 	margin-top: 100px;
@@ -401,23 +386,21 @@ ul {
 }
 
 
-/* SERVICES PAGE  --------------- */
+/* SERVICES PAGE  -------------------------- */
 .services-hero{
 
-     /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
-    background-size: 300px, 500px, contain;
-    background-repeat:no-repeat;
-    background-position: bottom left, bottom right; */
+  /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+  background-size: 300px, 500px, contain;
+  background-repeat:no-repeat;
+  background-position: bottom left, bottom right; */
 
-    background-color: #83955f;
+  background-color: #83955f;
 
-    /* Percentage of the viewport height below can change */
-    height: 40vh;
-    min-height:400px;
-    position: relative;
-
+  /* Percentage of the viewport height below can change */
+  height: 40vh;
+  min-height:400px;
+  position: relative;
 }
-
 
 
 /* --------
@@ -464,21 +447,6 @@ a.active {
 	top: 0;
 }
 
-#social-media {
-  display: block;
-  margin-left: auto;
-  margin-top: 15px;
-  margin-right: auto;
-  width: 100px;
-  float: center;
-}
-
-footer {
-  text-align: center;
-}
-
-
-
 /* --------
 END MOBILE NAV STYLES
 -------- */
@@ -508,9 +476,12 @@ DESKTOP STYLES
       display: none;
   }
 
+  .hero{
+        background-image: url("images/light-left.gif"), url("images/light-right.gif");
+  }
   .hero-text {
       display: block;
-      position: absolute;
+      /* position: absolute; */
       color: #666;
       width: 50%;
       top:10%;
@@ -519,30 +490,29 @@ DESKTOP STYLES
 
 
   p {
-        padding: 10px;
+      padding: 10px;
 
-    }
+  }
 
-    h1, h2 {
-      font-size: 30px;
-    }
+  h1, h2 {
+    /* font-size: 30px; */
+  }
 
   section{
-      width:50%;
-      margin: auto;
+    width:70%;
+    margin: auto;
   }
 
   footer{
-      text-align: center;
-      float: center;
-      background-color: white;
-      padding:5px 0;
-      color: black;
+    text-align: center;
+    background-color: white;
+    padding:5px 0;
+    color: black;
 
   }
   footer a{
-      color: black;
-      text-decoration: none;
+    color: black;
+    text-decoration: none;
   }
 
   .footer-text1 {
@@ -568,44 +538,22 @@ DESKTOP STYLES
     max-width: 50%;
     float: left;
   }
-
+  .left-align-text {
+    text-align: left;
+    margin: 35px;
+  }
+  .right-align-img {
+    max-width: 50%;
+    float: right;
+  }
   .right-align-text {
     text-align: right;
     margin: 35px;
   }
 
-  .right-align-img {
-    max-width: 50%;
-    float: right;
-  }
-
-  .left-align-text {
-    text-align: left;
-    margin: 35px;
-  }
-
-  #bkgd-headline {
-    text-align: center;
-    color: white;
-    /* padding: 35px; */
-    width: 90%;
-    padding-top: 40px;
-    /* padding-left: 100px; */
-    font-size: 30px;
 
 
-  }
 
-  #bkgd-text p {
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    /* margin: 10px 150px; */
-    width: 90%;
-    padding-top: -10px;
-    /* padding-left: 100px; */
-
-  }
 
   /* ABOUT  ------------------------------------------------- */
   .about-hero{
@@ -615,31 +563,52 @@ DESKTOP STYLES
       background-repeat:no-repeat;
       background-position: bottom left, bottom right; */
 
-      background-color: #dc9822;
+      /* background-color: #dc9822; */
 
       /* Percentage of the viewport height below can change */
-      height: 85vh;
-      min-height:400px;
-      position: relative;
+      /* height: 85vh; */
+      /* min-height:400px; */
+      /* position: relative; */
+      margin-bottom:20px;
+  }
+  /* .small-img{
+    display:inline;
+    width: 150px;
+    position: absolute;
+    left:0;
+  } */
 
+/* START ABOUT FLEXBOX STUFF --------------------------------- */
+  figure{
+    /* Flex-basis is like setting a general width of flex items. */
+    flex-basis: 450px;
+    /* padding: 5px; */
   }
 
-  .service-grid{
+  /* General syles to create a flexbox. Just add the class to any container that has items you want to flex. */
+  .flexbox-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
+    /* Using the > and then * means a child of the flexbox-container. These are called flex items. Flex items will adjust size in the container, keeping in mind the flex-basis you have given those items. */
+  .flexbox-container > *{
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+  }
 
-    figure{
-        width: 50%
-        padding: 5px;
-        display: inline;
+  /* PORTFOLIO FLEXBOX ----------------------------- */
+  .row {
+    display:flex;
+    padding: 0 4px;
+  }
 
-    }
+  /* Create two equal columns that sits next to each other */
+  .row .column {
+  flex-basis: 600px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  }
 
-    .
-
-
-
-
+/* END FLEXBOX ------------------------------------------ */
 }
