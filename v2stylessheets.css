@@ -1,0 +1,663 @@
+@charset "utf-8";
+
+
+/* FONTS -------------------------------------------- */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('GOTHIC.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Dolce Vita Light';
+  src: url('DOLCE VITA LIGHT.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Dolce Vita Bold';
+  src: url('DOLCE VITA HEAVY BOLD.ttf') format("truetype");
+}
+
+/* @font-face {
+  font-family: 'Attack Graffiti';
+  src: url('aAttackGraffiti.otf') format("opentype");
+}
+@font-face {
+  font-family: 'Philly';
+  src: url('PhillySans.otf') format("opentype");
+} */
+
+/* MAIN CONTENT --------------------------------- */
+body{
+  background: white;
+  font-size: 16px;
+  font-family: 'Century Gothic';
+  margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* .abouthero {
+	  height: 50vh;
+} */
+
+
+
+#logo {
+    /* ------ Max width to keep logo image from being larger than intended ------ */
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Dolce Vita Bold';
+  font-black;
+}
+
+h2 {
+  font-family: 'Dolce Vita Bold';
+  color: black;
+  font-size: 50px;
+
+
+}
+
+
+
+
+p {
+	color: black;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+section{
+    width:90%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#bkgd-headline {
+  color: white;
+  padding: 15px;
+}
+
+#bkgd-text p {
+  color: white;
+  padding: 0px 30px;
+}
+
+
+/* --------
+MOBILE NAV STYLES
+-------- */
+.topnav {
+	overflow: hidden;
+	/* background-color:rgba(40,40,40,.7); */
+}
+.topnav a {
+	display: none;
+	color: #666;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.topnav a:hover {
+	/* background-color: #999; */
+	color: black;
+	}
+a.active {
+	display: inline-grid;
+	/* background-color:rgba(40,40,40,.6); */
+	color: black;
+}
+.topnav.responsive {
+  position: relative;
+  z-index: 1;
+}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+	/* border-bottom:1px solid #000; */
+}
+.topnav a.icon {
+	float: right;
+	display: block;
+    color:black;
+}
+.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* --------
+END MOBILE NAV STYLES
+-------- */
+
+
+/* INDEX PAGE ------------------------------------------- */
+.hero{
+    /* Background image of yellow jacket lady */
+
+    background-image: url("images/light-left.gif"), url("images/light-right.gif");
+    /* woman-1 is yellow jacket, woman-2 is looking up */
+    background-size: 200px, 200px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right;
+    /* background color that will show if the lady image doesn't */
+    background-color: white;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+
+}
+
+.hero1 {
+    background-image: url("images/index-img4.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:600px;
+    min-width: 100px
+}
+
+.hero-text {
+    display: none;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.headline {
+	text-align: center;
+	margin-top: 300px;
+
+}
+
+
+/* ABOUT  ------------------------------------------------- */
+.about-hero{
+
+     /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+    background-size: 300px, 500px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+
+    background-color: #dc9822;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:575px;
+    position: relative;
+
+
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* #aria {
+  float: left;
+  height: 50vh;
+  min-height: 200px;
+}
+
+#shannon {
+  float: lefy;
+  height: 50vh;
+}
+
+#adam {
+  float: left;
+  height: 50vh;
+} */
+
+.staff {
+  height: 100vh;
+  /* float: left; */
+  display: inline;
+}
+
+.about-grid {
+  /* padding: 0 0 10px 10px; */
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  float: left;
+  display: inline;
+}
+.about-grid p{
+    text-align: left;
+}
+
+
+.prism  {
+	text-align: center;
+	margin-top: 30px;;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+.btn.active {
+  background-color: black;
+  color: white;
+}
+
+/* CONTACT  ------------------------------------------------ */
+.contact-hero{
+
+    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+    background-color: #e9e6e7;
+     background-image: url("images/woman-4.gif"), url("images/women-5.gif");
+    background-size: 275px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right;
+    background-color: #e9e6e7;
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+}
+
+#woman-6 {
+  float: right;
+  margin: auto;
+  padding: 5px;
+  min-width: 250px;
+}
+
+/**CONACT FORM ---------------------------*/
+
+/* START MOBILE FORM STYLES */
+form{
+margin: 20px auto;
+width:90%;
+}
+form p{
+margin-bottom:5px;
+}
+label{
+display:block;
+}
+#newsletter input{
+display:inline;
+width:auto;
+}
+input{
+/* FOR MOBILE WIDTH:100% */
+width:100%;
+padding:1.7%;
+margin:1.5% 0;
+font-size: 1em;
+border-radius: 4px;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+.checkbox{
+    width:30px;
+}
+textarea {
+min-height:100px;
+width: 100%;
+padding: 2%;
+margin: 1.5% 0;
+font-size: 1em;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+
+form ul {
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+
+/* TESTIMONIALS  --------------------------------------------- */
+.test-hero{
+
+    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+
+    background-color: #7d4d9f;
+    color: white;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+
+}
+
+.left-align-img {
+  float: center;
+  height: 60vh;
+
+}
+
+.right-align-img {
+  float: center;
+  height: 60vh;
+}
+
+.left-align-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.right-align-text {
+  text-align: center;
+}
+
+
+.email p {
+	font-family: Century Gothic, "sans-serif";
+	font-color: blue;
+	font-size: 25px;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+
+/* SERVICES PAGE  ---------------------------------------- */
+.services-hero{
+
+     /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+    background-size: 300px, 500px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+
+    background-color: #83955f;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+
+}
+
+
+
+
+
+/* FOOTER ------------------------------------------------- */
+
+
+#social-media {
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: auto;
+  width: 100px;
+  float: center;
+}
+
+
+footer {
+  text-align: center;
+
+}
+
+.color-bar {
+  height: 15px;
+  margin-top: -10px;
+  background: rgb(237,36,36);
+background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, rgba(255,239,0,1) 38%, rgba(49,131,52,1) 58%, rgba(0,84,182,1) 75%, rgba(107,10,181,1) 92%);
+}
+
+
+
+/* MEDIA QUERIES ---------------------------------------------- */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* --------
+DESKTOP STYLES
+-------- */
+@media only screen and (min-width:700px){
+
+ .topnav{
+      text-align: center;
+      padding:10px 0;
+  }
+  .topnav a {
+      display: inline-grid;
+      grid-auto-flow: column;
+  }
+  .topnav a.icon {
+      display: none;
+  }
+
+  .hero-text {
+      display: block;
+      position: absolute;
+      color: #666;
+      width: 50%;
+      top:10%;
+
+  }
+
+
+  p {
+        padding: 10px;
+
+    }
+
+    h1, h2 {
+      font-size: 30px;
+    }
+
+  section{
+      width:50%;
+      margin: auto;
+  }
+
+  footer{
+      text-align: center;
+      float: center;
+      background-color: white;
+      padding:5px 0;
+      color: black;
+
+
+  }
+  footer a{
+      color: black;
+      text-decoration: none;
+  }
+
+  .footer-text1 {
+    text-align: left;
+
+  }
+
+  .footer-text2 {
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  #social-media {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 150px;
+    float: left;
+  }
+
+  .left-align-img {
+    max-width: 50%;
+    float: left;
+  }
+
+  .right-align-text {
+    text-align: right;
+    margin: 35px;
+  }
+
+  .right-align-img {
+    max-width: 50%;
+    float: right;
+  }
+
+  .left-align-text {
+    text-align: left;
+    margin: 35px;
+  }
+
+  #bkgd-headline {
+    text-align: center;
+    color: white;
+    /* padding: 35px; */
+    width: 90%;
+    padding-top: 40px;
+    /* padding-left: 100px; */
+    font-size: 30px;
+
+
+  }
+
+  #bkgd-text p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    /* margin: 10px 150px; */
+    width: 90%;
+    padding-top: -10px;
+    /* padding-left: 100px; */
+
+  }
+
+  /* ABOUT  ------------------------------------------------- */
+  .about-hero{
+
+       /* background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+      background-size: 300px, 500px, contain;
+      background-repeat:no-repeat;
+      background-position: bottom left, bottom right; */
+
+      background-color: #dc9822;
+
+      /* Percentage of the viewport height below can change */
+      height: 85vh;
+      min-height:400px;
+      position: relative;
+
+  }
+
+  .about-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    figure{
+        width: 50%
+        padding: 5px;
+        display: inline;
+
+    }
+
+    .
+
+
+
+
+}
