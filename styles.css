@@ -47,7 +47,7 @@ img{
 
 #logo {
     /* ------ Max width to keep logo image from being larger than intended ------ */
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
     display: block;
 }
@@ -585,6 +585,13 @@ DESKTOP STYLES
   section{
     width:70%;
     margin: auto;
+  }
+
+  #logo {
+      /* ------ Max width to keep logo image from being larger than intended ------ */
+      max-width: 50%;
+      margin: auto;
+      display: block;
   }
 
   footer{
