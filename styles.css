@@ -9,12 +9,12 @@
 
 @font-face {
   font-family: 'Dolce Vita Light';
-  src: url('DOLCE VITA LIGHT.ttf') format("truetype");
+  src: url('DOLCE_VITA_LIGHT.ttf') format("truetype");
 }
 
 @font-face {
   font-family: 'Dolce Vita Bold';
-  src: url('DOLCE VITA HEAVY BOLD.ttf') format("truetype");
+  src: url('DOLCE_VITA_HEAVY_BOLD.ttf') format("truetype");
 }
 
 /* @font-face {
