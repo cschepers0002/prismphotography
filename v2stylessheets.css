@@ -83,6 +83,16 @@ section{
 
 }
 
+#bkgd-headline {
+  color: white;
+  padding: 15px;
+}
+
+#bkgd-text p {
+  color: white;
+  padding: 0px 30px;
+}
+
 
 /* --------
 MOBILE NAV STYLES
@@ -202,8 +212,9 @@ END MOBILE NAV STYLES
 
     /* Percentage of the viewport height below can change */
     height: 40vh;
-    min-height:400px;
+    min-height:575px;
     position: relative;
+
 
 }
 
@@ -412,6 +423,7 @@ ul {
 .left-align-img {
   float: center;
   height: 60vh;
+
 }
 
 .right-align-img {
@@ -421,6 +433,7 @@ ul {
 
 .left-align-text {
   text-align: center;
+  padding: 20px;
 }
 
 .right-align-text {
@@ -473,6 +486,7 @@ ul {
 
 footer {
   text-align: center;
+
 }
 
 .color-bar {
@@ -541,6 +555,7 @@ DESKTOP STYLES
       background-color: white;
       padding:5px 0;
       color: black;
+
 
   }
   footer a{
