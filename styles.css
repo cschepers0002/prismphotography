@@ -17,6 +17,8 @@
   src: url('DOLCE_VITA_HEAVY_BOLD.ttf') format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* @font-face {
   font-family: 'Attack Graffiti';
   src: url('aAttackGraffiti.otf') format("opentype");
@@ -30,7 +32,7 @@
 body{
   background: white;
   font-size: 16px;
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', Arial, sans-serif;
   margin:0;
   padding:0;
 }
@@ -54,12 +56,12 @@ img{
 
 h1 {
   text-align: center;
-  font-family: 'Dolce Vita Bold';
+  font-family: 'Dolce Vita Bold', "Poppins", Arial, sans-serif;
   font-size: 2em;
 }
 
 h2 {
-  font-family: 'Dolce Vita Bold';
+  font-family: 'Dolce Vita Bold', "Poppins", Arial, sans-serif;
   color: black;
   font-size: 1.5em;
 }
