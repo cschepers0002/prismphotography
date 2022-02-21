@@ -431,9 +431,10 @@ ul {
   color: white;
 
   /* Percentage of the viewport height below can change */
-  height: 40vh;
   min-height:400px;
-  position: relative;
+  padding-top: 10px;
+  padding-bottom:10px;
+
 
 }
 
@@ -479,10 +480,44 @@ ul {
   background-color: #83955f;
 
   /* Percentage of the viewport height below can change */
-  height: 40vh;
-  min-height:400px;
-  position: relative;
+  min-height:300px;
+  /* position: relative; */
+  padding-top: 10px;
+  padding-bottom:10px;
+
 }
+
+.blockquote {
+  max-width: 600px;
+  margin: 18px 30px;
+  padding: 20px;
+  background: black;
+  border: 1px solid black;
+  color: black;
+  box-sizing: border-box;
+}
+
+.blockquote-bordered {
+  border-left-width: 10px;
+}
+
+.blockquote-text {
+  font-family: 'Century Gothic', san-serif;
+
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.blockquote-text-credit {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+
+}
+
+
+
 
 
 /* --------
@@ -739,10 +774,12 @@ DESKTOP STYLES
 
 .test-hero {
     margin-bottom:20px;
+    min-height: 300px;
 }
 
 .service-hero {
     margin-bottom:20px;
+    min-height:150px;
 }
 
 
