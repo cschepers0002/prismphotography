@@ -810,8 +810,25 @@ DESKTOP STYLES
     min-height:150px;
 }
 
+.awards {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
 
+.contact-hero {
 
+  background-color: #e9e6e7;
+   background-image: url("images/woman-4.gif"), url("images/women-5.gif"), url("images/men-1.gif");
+  background-size: 275px, 300px, 600px,contain;
+  background-repeat:no-repeat;
+  background-position: bottom left, bottom right, center;
+  background-color: #e9e6e7;
+  /* Percentage of the viewport height below can change */
+  height: 40vh;
+  min-height:400px;
+  position: relative;
+}
 
 
 }
