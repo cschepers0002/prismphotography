@@ -623,13 +623,33 @@ DESKTOP STYLES
 
   .hero{
         background-image: url("images/light-left.gif"), url("images/light-right.gif");
+
+
+
   }
+
+  .light-closeup {
+    height: 40vh;
+    min-height:400px;
+    float: right;
+    background-size: 200px;
+
+
+  }
+
+  .light-left {
+    min-height: 400px;
+    height: 40vh;
+
+  }
+
   .hero-text {
       display: block;
       /* position: absolute; */
       color: #666;
       width: 50%;
       top:10%;
+
 
   }
 
@@ -780,6 +800,8 @@ DESKTOP STYLES
     margin-bottom:20px;
     min-height:150px;
 }
+
+
 
 
 
