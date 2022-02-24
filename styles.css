@@ -239,6 +239,12 @@ footer {
 .hero-text {
     width: 80%;
     margin:auto;
+    text-align: center;
+
+}
+
+.awards {
+
 }
 
 
@@ -626,6 +632,7 @@ DESKTOP STYLES
 
 
 
+
   }
 
   .light-closeup {
@@ -649,6 +656,8 @@ DESKTOP STYLES
       color: #666;
       width: 50%;
       top:10%;
+      text-align: center;
+      padding-top: 100px;
 
 
   }
