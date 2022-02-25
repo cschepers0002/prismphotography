@@ -493,32 +493,40 @@ ul {
 
 }
 
-.blockquote {
-  max-width: 600px;
-  margin: 18px 30px;
-  padding: 20px;
-  background: black;
-  border: 1px solid black;
-  color: black;
-  box-sizing: border-box;
+blockquote{
+  font-size: 1.4em;
+  width:90%;
+  margin:50px auto;
+  font-family: 'Century Gothic';
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid black ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
 }
 
-.blockquote-bordered {
-  border-left-width: 10px;
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:black;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
 }
 
-.blockquote-text {
-  font-family: 'Century Gothic', san-serif;
-  font-size: 1.15em;
-  line-height: 1.5;
-  margin: 0;
+blockquote::after{
+  content: '';
 }
 
-.blockquote-text-credit {
-  font-weight: bold;
+blockquote span{
+  display:block;
+  color:#333333;
   font-style: normal;
-  text-align: right;
-
+  font-weight: bold;
+  margin-top:1em;
 }
 
 
@@ -789,6 +797,7 @@ DESKTOP STYLES
   .row {
     display:flex;
     padding: 0 4px;
+
   }
 
   /* Create two equal columns that sits next to each other */
@@ -797,6 +806,25 @@ DESKTOP STYLES
   flex-grow: 1;
   flex-shrink: 1;
   }
+
+/* END FLEXBOX ------------------------------------------ */
+
+/* SERVICE FLEXBOX ----------------------------- */
+.service-row {
+  display:flex;
+  padding: 0 4px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.service-row .column {
+flex-basis: 600px;
+flex-grow: 1;
+flex-shrink: 1;
+}
 
 /* END FLEXBOX ------------------------------------------ */
 
@@ -828,6 +856,42 @@ DESKTOP STYLES
   height: 40vh;
   min-height:400px;
   position: relative;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  font-family: 'Century Gothic';
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid black ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:black;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
 }
 
 
