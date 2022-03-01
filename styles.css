@@ -74,7 +74,7 @@ p {
 
 .color-bar {
   height: 15px;
-  margin-top: -10px;
+  /* margin-top: -10px; */
   background: rgb(237,36,36);
   background: linear-gradient(90deg, rgba(237,36,36,1) 7%, rgba(255,114,0,1) 21%, rgba(255,239,0,1) 38%, rgba(49,131,52,1) 58%, rgba(0,84,182,1) 75%, rgba(107,10,181,1) 92%);
 }
@@ -244,6 +244,8 @@ footer {
 }
 
 .awards {
+  display: block;
+  margin: auto;
 
 }
 
@@ -840,8 +842,7 @@ flex-shrink: 1;
 
 .awards {
   display: block;
- margin-left: auto;
- margin-right: auto;
+  margin: auto;
 }
 
 .contact-hero {
@@ -894,5 +895,26 @@ blockquote span{
   margin-top:1em;
 }
 
+@media screen and (max-width: 1600px) {
+  /* SERVICE FLEXBOX ----------------------------- */
+  .service-row {
+    display:flex;
+    padding: 0 4px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .service-row .column {
+  flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  }
+
+  /* END FLEXBOX ------------------------------------------ */
+
+}
 
 }
