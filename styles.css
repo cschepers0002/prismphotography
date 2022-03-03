@@ -220,8 +220,7 @@ footer {
     background-color: white;
 
     /* Percentage of the viewport height below can change */
-    height: 40vh;
-    min-height:400px;
+
     position: relative;
 
 }
@@ -246,6 +245,7 @@ footer {
 .awards {
   display: block;
   margin: auto;
+  width: 300px;
 
 }
 
@@ -639,6 +639,8 @@ DESKTOP STYLES
 
   .hero{
         background-image: url("images/light-left.gif"), url("images/light-right.gif");
+        height: 40vh;
+        min-height:400px;
 
 
 
@@ -843,6 +845,7 @@ flex-shrink: 1;
 .awards {
   display: block;
   margin: auto;
+  width: 550px;
 }
 
 .contact-hero {
@@ -871,6 +874,7 @@ blockquote{
   line-height:1.6;
   position: relative;
   background:#EDEDED;
+  max-width: 1000px;
 }
 
 blockquote::before{
@@ -895,7 +899,7 @@ blockquote span{
   margin-top:1em;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1100px) {
   /* SERVICE FLEXBOX ----------------------------- */
   .service-row {
     display:flex;
@@ -908,7 +912,7 @@ blockquote span{
 
   /* Create two equal columns that sits next to each other */
   .service-row .column {
-  flex-basis: 400px;
+  flex-basis: 368px;
   flex-grow: 1;
   flex-shrink: 1;
   }
