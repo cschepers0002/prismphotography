@@ -911,7 +911,7 @@ blockquote span{
   }
 
   /* Create two equal columns that sits next to each other */
-  .service-row .column {
+  .service-row figure {
   flex-basis: 368px;
   flex-grow: 1;
   flex-shrink: 1;
