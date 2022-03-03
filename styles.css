@@ -854,7 +854,8 @@ flex-shrink: 1;
    background-image: url("images/woman-4.gif"), url("images/women-5.gif"), url("images/men-1.gif");
   background-size: 275px, 300px, 660px,contain;
   background-repeat:no-repeat;
-  background-position: bottom left, bottom right, center;
+  background-position: bottom left, bottom right, bottom
+  ;
   background-color: #e9e6e7;
   /* Percentage of the viewport height below can change */
   height: 40vh;
