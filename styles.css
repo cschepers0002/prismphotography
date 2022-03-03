@@ -900,6 +900,9 @@ blockquote span{
   margin-top:1em;
 }
 
+form {
+  max-width: 900px;
+}
 @media screen and (max-width: 1100px) {
   /* SERVICE FLEXBOX ----------------------------- */
   .service-row {
@@ -921,5 +924,6 @@ blockquote span{
   /* END FLEXBOX ------------------------------------------ */
 
 }
+
 
 }
