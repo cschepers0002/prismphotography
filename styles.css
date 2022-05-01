@@ -37,6 +37,17 @@ body{
   padding:0;
 }
 
+.red-banner {
+  background-color: red;
+
+}
+.red-banner a {
+  color: white;
+  text-align: center;
+
+}
+
+
 * {
   box-sizing: border-box;
 }
